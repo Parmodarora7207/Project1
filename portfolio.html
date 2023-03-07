@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Parmod Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/PARMOD KUMAR-logos_transparent.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a class="active" href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                </label>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Parmod</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------About---------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/pic3 (2).jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dicta ad totam laboriosam itaque
+                        consequatur nam, optio, dolorum animi nihil ex sapiente architecto quaerat natus necessitatibus
+                        inventore excepturi rerum ea?
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tabs" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-Current</span><br>Node js Designing at omninos</li>
+                            <li><span>2019-2021</span><br>Team lead</li>
+                            <li><span>Aug-Oct 2022</span><br>Job at Nestmartz Infotech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2022</span><br>B.SC KURUKSHETRA UNIVERSITY</li>
+                            <li><span>2018-2019</span><br>+2 BSEH HARYANA</li>
+                            <li><span>2017-2018</span><br>10TH BSEH HARYANA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------Services ---------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web designers plan, create and code internet sites and web pages, many of which combine text with
+                        sounds, pictures, graphics and video clips. A web designer is responsible for creating the
+                        design and layout of a website or web pages. It and can mean working on a brand new website or
+                        updating an already existing site.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI UX designers create the user interface for an app, website, or other interactive media. Their
+                        work includes collaborating with product managers and engineers to gather requirements from
+                        users before designing ideas that can be communicated using storyboards. They also process flows
+                        or sitemaps.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>App designers create programs for smartphones, tablets and computers. They work in a range of
+                        industries and across a number of platforms, including Apple iOS and macOS, Google Android, and
+                        Windows. An app designer may create games, weather apps, social networking tools, maps and
+                        navigation programs, and much more.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ---------------------------Portfolio------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h3 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/work1.jpeg">
+                        <div class="layer">
+                            <h4>Social Media</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolor fugiat at modi
+                                possimus illo dicta quis! Corporis magni, facilis nulla a neque deserunt libero veniam
+                                architecto impedit! Sequi, quis.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/work2.webp">
+                        <div class="layer">
+                            <h4>Music App</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolor fugiat at modi
+                                possimus illo dicta quis! Corporis magni, facilis nulla a neque deserunt libero veniam
+                                architecto impedit! Sequi, quis.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/work3.webp">
+                        <div class="layer">
+                            <h4>Online Shopping App</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolor fugiat at modi
+                                possimus illo dicta quis! Corporis magni, facilis nulla a neque deserunt libero veniam
+                                architecto impedit! Sequi, quis.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -------------Contact------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>Parmodkumar7207@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9991573471,8930873471</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100009530296131"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/ParmodKumar7207"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/parmodarora2709/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://whatsapp.com/dl//"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="/PARMOD RESUME NEW.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ------------------------------END--------------------------- -->
+    <div class="copyright">
+        <p>copyright @Parmod.Made with <i class="fa-solid fa-heart"></i> by His Knowledge</p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tabs");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tabs")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwLG72asw16sWlVUtQSZVbGr6jr0klXqbPvHTcasy-TKcBKLZtWJG9poO0SqT1eUw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response =>{msg.innerHTML="Message send successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+            })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
